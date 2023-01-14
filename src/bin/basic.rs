@@ -7,8 +7,8 @@ use gtk::{
     Label,
     Box as GtkBox,
     Orientation,
-    ScrolledWindowBuilder,
 };
+use gtk::builders::ScrolledWindowBuilder;
 use glib::clone;
 
 fn main() {

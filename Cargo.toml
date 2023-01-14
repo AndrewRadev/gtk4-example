@@ -9,7 +9,7 @@ edition = "2021"
 # gtk4 = { version = "0.3.1", features = ["v4_4"]}
 # gtk = { version = "0.14.3", features = ["v3_20"]}
 
-gtk = { version = "0.3.1", package = "gtk4", features = ["v4_4"]}
-glib = "0.14.8"
-gio = "0.14.8"
-chrono = "0.4.19"
+gtk = { version = "0.5.5", package = "gtk4", features = ["v4_6"]}
+glib = "0.16.7"
+gio = "0.16.7"
+chrono = "0.4.23"

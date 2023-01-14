@@ -10,8 +10,8 @@ use gtk::{
     Label,
     Box as GtkBox,
     Orientation,
-    ScrolledWindowBuilder,
 };
+use gtk::builders::ScrolledWindowBuilder;
 use gio::ApplicationFlags;
 use glib::clone;
 
