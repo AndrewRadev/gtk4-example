@@ -30,6 +30,9 @@ fn main() {
 }
 
 fn build_ui(app: &Application, arguments: Vec<OsString>) {
+    // println!("From gtk:    {:?}", arguments);
+    // println!("From args(): {:?}", std::env::args().collect::<Vec<String>>());
+
     let button_label = arguments.get(1).
         and_then(|arg| arg.clone().into_string().ok()).
         unwrap_or_else(|| String::from("Add click entry"));
